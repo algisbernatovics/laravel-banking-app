@@ -24,7 +24,6 @@ class AccountsController extends Controller
     {
         return view('accounts.create');
     }
-
     private function demoDeposit(string $newAccountNumber)
     {
         $transaction = new Transaction();
