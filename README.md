@@ -1,12 +1,12 @@
 # Laravel Banking App
 
-A Laravel internet banking demo with authentication, accounts, currencies, transactions, and screenshots of the user flow.
-
-Legacy live demo link from the original README: [https://laravelmoney.000webhostapp.com/](https://laravelmoney.000webhostapp.com/)
+An educational Laravel internet banking demo with authentication, accounts, currencies, transactions, and screenshots of the user flow.
 
 ## Overview
 
-Laravel Banking App is a full-stack demo of an internet banking workflow. It was built to practice Laravel application structure, authenticated user flows, account balances, currency conversion, cryptocurrency interactions, and transaction history.
+Laravel Banking App is a full-stack demo built to practice Laravel application structure, authenticated user flows, account balances, currency conversion, cryptocurrency interactions, and transaction history.
+
+The old hosted demo from the original README is no longer listed because it may be unavailable. Run the project locally for the reliable version.
 
 ## Features
 
@@ -15,7 +15,7 @@ Laravel Banking App is a full-stack demo of an internet banking workflow. It was
 - Currency conversion using the [Latvijas Banka API](https://www.latvijasbanka.lv/vk/ecb.xml).
 - Cryptocurrency-related data using the [CoinMarketCap API](https://pro-api.coinmarketcap.com/v1/).
 - Tailwind/Laravel Mix/Vite-era frontend assets.
-- Multiple screenshots for the portfolio view.
+- Multiple screenshots for quick review.
 
 ## Tech Stack
 
@@ -28,9 +28,7 @@ Laravel Banking App is a full-stack demo of an internet banking workflow. It was
 - MySQL/PostgreSQL-compatible Laravel database layer
 - External currency and crypto APIs
 
-## Getting Started
-
-Install dependencies and configure the app:
+## Run
 
 ```bash
 composer install
@@ -44,22 +42,19 @@ php artisan serve
 
 Configure database credentials and API keys in `.env`, including any required CoinMarketCap values.
 
-Open the app locally at the URL shown by Laravel, commonly `http://localhost:8000`.
-
 ## Project Structure
 
 - `app/` - Laravel application logic
 - `routes/` - web routes
 - `resources/` - Blade views and frontend assets
 - `database/` - migrations/seeders
-- `1.png ... 13.png` - portfolio screenshots
+- `1.png ... 13.png` - screenshots
 
-## Portfolio Notes
+## Notes
 
-- One of the stronger full-stack portfolio projects in the account.
-- Shows authentication, domain modeling, external API usage, and transaction-oriented workflows in Laravel.
+- Educational demo designed to show Laravel authentication, domain modeling, and transaction-style workflows.
 - Screenshots make it easier to review without running the project locally.
 
-## Status
+## License
 
-Portfolio-ready Laravel application.
+MIT License. See [LICENSE](./LICENSE).
