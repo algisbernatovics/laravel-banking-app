@@ -4,9 +4,7 @@ An educational Laravel internet banking demo with authentication, accounts, curr
 
 ## Overview
 
-Laravel Banking App is a full-stack demo built to practice Laravel application structure, authenticated user flows, account balances, currency conversion, cryptocurrency interactions, and transaction history.
-
-The old hosted demo from the original README is no longer listed because it may be unavailable. Run the project locally for the reliable version.
+Laravel Banking App is a full-stack demo built to practice Laravel application structure, authenticated user flows, account balances, currency conversion, cryptocurrency interactions, and transaction-oriented workflows.
 
 ## Features
 
@@ -28,7 +26,9 @@ The old hosted demo from the original README is no longer listed because it may 
 - MySQL/PostgreSQL-compatible Laravel database layer
 - External currency and crypto APIs
 
-## Run
+## Getting Started
+
+Install dependencies and configure the app:
 
 ```bash
 composer install
@@ -42,18 +42,25 @@ php artisan serve
 
 Configure database credentials and API keys in `.env`, including any required CoinMarketCap values.
 
+Open the app locally at the URL shown by Laravel, commonly `http://localhost:8000`.
+
 ## Project Structure
 
 - `app/` - Laravel application logic
 - `routes/` - web routes
 - `resources/` - Blade views and frontend assets
 - `database/` - migrations/seeders
-- `1.png ... 13.png` - screenshots
+- `1.png ... 13.png` - portfolio screenshots
 
-## Notes
+## Portfolio Notes
 
-- Educational demo designed to show Laravel authentication, domain modeling, and transaction-style workflows.
+- One of the stronger full-stack portfolio projects in the account.
+- Shows authentication, domain modeling, external API usage, and transaction-oriented workflows in Laravel.
 - Screenshots make it easier to review without running the project locally.
+
+## Status
+
+Portfolio-ready Laravel application.
 
 ## License
 
